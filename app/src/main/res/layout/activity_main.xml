@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/date_dialog_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="日期选择框"
+        android:textSize="20sp"
+        android:background="#ffddaa"
+
+        />
+    <Button
+        android:id="@+id/radio_dialog_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单选选择框"
+        android:layout_marginTop="6dp"
+        android:textSize="20sp"
+        android:background="#ffdd"
+        />
+    <Button
+        android:id="@+id/checkbox_dialog_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多选选择框"
+        android:textSize="20sp"
+        android:background="#ffddee"
+        android:layout_marginTop="6dp"
+
+        />
+
+    <TextView
+        android:id="@+id/checkbox_main_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="28sp"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>

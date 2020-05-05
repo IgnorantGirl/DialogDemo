@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/xingxing"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别选择"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            />
+
+    </LinearLayout>
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="26sp"
+                android:text="   男"
+                android:textColor="@android:color/darker_gray"
+               />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="26sp"
+                android:text="   女"
+                android:textColor="@android:color/darker_gray"
+                />
+            <RadioButton
+                android:id="@+id/noidea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="26sp"
+                android:text="   未知"
+                android:textColor="@android:color/darker_gray"
+                />
+            <RadioButton
+                android:id="@+id/guess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="26sp"
+                android:text="   你猜"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginBottom="20dp"
+                />
+        </RadioGroup>
+
+</LinearLayout>
